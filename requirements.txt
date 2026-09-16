@@ -1,0 +1,12 @@
+# Зависимости Python-порта сезонного сглаживания
+# Seasonal Adjustment for Russia — Python implementation
+# Установка: pip install -r requirements.txt
+
+pandas>=2.0
+numpy>=1.24
+openpyxl>=3.1          # чтение russia_calendar.xlsx
+statsmodels>=0.14      # SARIMAX
+scipy>=1.10            # вспомогательные статистические функции
+matplotlib>=3.7        # визуализация в Notebook
+jupyter>=1.0           # Jupyter Notebook
+ipykernel>=6.0         # ядро Jupyter
