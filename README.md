@@ -161,7 +161,7 @@ print(sa_ru_list_specs())     # что заморожено и когда
 
 Изначальная R-версия была разработана Nadezhda Yurchenko.
 
-Переход в Python был реализован при поддержке Ruslan Chernenko.
+Переход в Python был реализован при поддержке [Ruslan Chernenko](https://github.com/ChernenkoRuslan).
 
 ## Отличия от R-версии
 
