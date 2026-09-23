@@ -5,7 +5,7 @@
 #   sa_ru.py                   — библиотека
 #   bin/                       — программа X-13 (Mac и Windows - код поймет сам)
 #   russia_calendar.xlsx       — календарь (Лист1) + план индексаций ЖКУ (лист tariff_plan)
-#   inflcomponents_nonSA.xlsx  — данные (Лист1) + настройки по рядам (лист config)
+#   dataexample_nonSA.xlsx  — данные (Лист1) + настройки по рядам (лист config)
 #
 # Настройки можно менять на листе config, пустая ячейка = как в DEFAULT
 #
@@ -27,7 +27,7 @@ sa_ru_identify_batch = sa_ru.sa_ru_identify_batch
 sa_ru_list_specs     = sa_ru.sa_ru_list_specs
 sa_ru_one            = sa_ru.sa_ru                # один ряд напрямую (см. п. 5)
 
-DATA     = HERE / "inflcomponents_nonSA.xlsx"     # данные + лист config (любой файл: 1 ряд или много)
+DATA     = HERE / "dataexample_nonSA.xlsx"     # данные + лист config (любой файл: 1 ряд или много)
 CALENDAR = HERE / "russia_calendar.xlsx"          # календарь + лист tariff_plan
 OUTPUT   = HERE / (DATA.stem.replace("_nonSA", "") + "_SA.xlsx")   # имя результата из имени данных: X_nonSA -> X_SA
 
